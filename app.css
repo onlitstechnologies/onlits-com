@@ -1,0 +1,43 @@
+body {
+    margin: 0 0;
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+    
+}
+
+.brand-image {
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-items {
+    float: right;
+}
+
+main {
+    min-height: 400px;
+}
+
+footer {
+    background-color: slategrey;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-column-1 a {
+    text-decoration: none;
+    color: white;
+}
